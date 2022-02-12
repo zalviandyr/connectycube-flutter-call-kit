@@ -296,7 +296,7 @@ fun createCallNotificationChannel(notificationManager: NotificationManagerCompat
 
 fun setNotificationSmallIcon(context: Context, notificationBuilder: NotificationCompat.Builder) {
     val resID =
-        context.resources.getIdentifier("ic_launcher_foreground", "drawable", context.packageName)
+        context.resources.getIdentifier("ic_japri", "drawable", context.packageName)
     if (resID != 0) {
         notificationBuilder.setSmallIcon(resID)
     } else {
